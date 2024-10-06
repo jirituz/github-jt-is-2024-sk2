@@ -13,4 +13,6 @@ Jiří Tuž
 
 ## další testovací změna provedená na githubu ve škole 
 datum a čas provedení změny 3.10. 2024 13:14
+
+další změna doma
 Jiří Tuž
