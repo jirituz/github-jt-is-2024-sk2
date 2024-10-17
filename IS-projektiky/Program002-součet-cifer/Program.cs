@@ -58,6 +58,7 @@ string again = "a";
             // opakování programu 
             Console.WriteLine("Pro opakování programu stiskněte klávesu a");
             again = Console.ReadLine();
+            
         }
 
 
