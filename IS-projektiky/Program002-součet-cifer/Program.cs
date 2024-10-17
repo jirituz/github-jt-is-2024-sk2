@@ -29,6 +29,7 @@ string again = "a";
            Console.WriteLine("=========================");
 
             int suma = 0;
+            int multi = 1;
             int numberbackup = number;
             int digit;
 
@@ -43,15 +44,16 @@ string again = "a";
               number = (number - digit) / 10;
               Console.WriteLine("digit = {0}", digit);
             suma = suma + digit;
+            multi = multi * digit;
 
             }
             Console.WriteLine("digit = {0}", number);
             suma = suma + number; 
+            multi = multi * number;
         
-        Console.WriteLine("součet cifer čísla {0} je {1}", numberbackup, suma);
+        Console.WriteLine("\n\nsoučet cifer čísla {0} je {1}", numberbackup, suma);
+        Console.WriteLine("\n\nsoučin cifer čísla {0} je {1}", numberbackup, suma);
 
-
-            
 
             // opakování programu 
             Console.WriteLine("Pro opakování programu stiskněte klávesu a");
