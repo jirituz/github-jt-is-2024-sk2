@@ -24,7 +24,67 @@ class Program
             }
 
 
-        // horní část kosočtverce
+        // // horní část kosočtverce
+        // for (int i = 1; i <= n; i++)
+        // {
+        //     // vypsání mezer
+        //     for (int j = i; j < n; j++)
+        //     {
+        //         Console.Write(" ");
+        //     }
+
+        //     // vypsání hvězd
+        //     for (int j = 1; j <= (2 * i - 1); j++)
+        //     {
+        //         Console.Write("*");
+        //     }
+
+        //     Console.WriteLine();
+        // }
+
+        // // spodní část 
+        // for (int i = n - 1; i >= 1; i--)
+        // {
+        //     // vypsání mezer
+        //     for (int j = n; j > i; j--)
+        //     {
+        //         Console.Write(" ");
+        //     }
+
+        //     // vypsání hvězd
+        //     for (int j = 1; j <= (2 * i - 1); j++)
+        //     {
+        //         Console.Write("*");
+        //     }
+
+        //     Console.WriteLine();
+        
+        //     }
+            
+        //     Console.WriteLine();
+
+        //PŘESÍPACÍ HODINY 
+
+        //horní část hodin přesípacích hodin
+        for (int i = n ; i >= 1; i--)
+        {
+            // vypsání mezer
+            for (int j = n; j > i; j--)
+            {
+                Console.Write(" ");
+            }
+
+            // vypsání hvězd
+            for (int j = 1; j <= (2 * i ); j++)
+            {
+                Console.Write("*");
+            }
+            Console.WriteLine();
+            }
+
+
+
+        // spodní část přesípacích hodin
         for (int i = 1; i <= n; i++)
         {
             // vypsání mezer
@@ -34,34 +94,13 @@ class Program
             }
 
             // vypsání hvězd
-            for (int j = 1; j <= (2 * i - 1); j++)
+            for (int j = 1; j <= (2 * i ); j++)
             {
                 Console.Write("*");
             }
 
             Console.WriteLine();
         }
-
-        // spodní část 
-        for (int i = n - 1; i >= 1; i--)
-        {
-            // vypsání mezer
-            for (int j = n; j > i; j--)
-            {
-                Console.Write(" ");
-            }
-
-            // vypsání hvězd
-            for (int j = 1; j <= (2 * i - 1); j++)
-            {
-                Console.Write("*");
-            }
-
-            Console.WriteLine();
-        
-            }
-            
-            Console.WriteLine();
             
             // Opakování programu
             Console.WriteLine("Pro opakování programu stiskněte klávesu a");
